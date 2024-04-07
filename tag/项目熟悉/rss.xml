@@ -20,16 +20,27 @@
 &lt;h2 id=&#34;技术架构和系统设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技术架构和系统设计&#34;&gt;#&lt;/a&gt; 技术架构和系统设计：&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;开发人员需要理解和评估能源互联网营销系统的技术架构，包括后端服务器、数据库、前端界面等方面的设计。他们需要确保系统具有良好的可扩展性、性能和安全性。&lt;/li&gt;
-&lt;li&gt;技术架构图第一版
+&lt;li&gt;总体架构图
 &lt;ul&gt;
-&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png&#34; alt=&#34;架构图&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E6%80%BB%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png&#34; alt=&#34;总体架构图&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;技术架构图第二版&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;技术架构图第一版
 &lt;ul&gt;
-&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE_2.png&#34; alt=&#34;架构图&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png&#34; alt=&#34;技术架构图&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;技术架构图第二版
+&lt;ul&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE_2.png&#34; alt=&#34;技术架构图&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;延展设计图
+&lt;ul&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/%E8%90%A5%E9%94%802.0%E5%86%85%E9%83%A8%E9%9B%86%E6%88%90%E5%B1%82%E9%9D%A2%E7%9A%84%E5%BB%B6%E5%B1%95%E8%AE%BE%E8%AE%A1%E5%9B%BE.png&#34; alt=&#34;技术架构图&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;数据管理和分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据管理和分析&#34;&gt;#&lt;/a&gt; 数据管理和分析：&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;能源互联网营销系统涉及大量数据的收集、存储和分析，开发人员需要关注数据管理的方案，包括数据的采集、清洗、存储和处理，以及数据分析和挖掘技术的应用。&lt;/li&gt;
