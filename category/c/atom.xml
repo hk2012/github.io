@@ -3,12 +3,96 @@
     <id>https://hk2012.github.io</id>
     <title>流年印记 • Posts by &#34;c&#34; category</title>
     <link href="https://hk2012.github.io" />
-    <updated>2024-04-10T11:09:00.000Z</updated>
+    <updated>2024-04-24T01:05:00.000Z</updated>
     <category term="记录" />
     <category term="总结" />
     <category term="项目熟悉" />
     <category term="项目开发" />
     <category term="熟悉项目" />
+    <entry>
+        <id>https://hk2012.github.io/2024/04/24/other/u%E7%9B%BE%E6%B5%8B%E8%AF%95/</id>
+        <title>U盾测试</title>
+        <link rel="alternate" href="https://hk2012.github.io/2024/04/24/other/u%E7%9B%BE%E6%B5%8B%E8%AF%95/"/>
+        <content type="html">&lt;h1 id=&#34;前端网址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前端网址&#34;&gt;#&lt;/a&gt; 前端网址&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovLzEwMy4yMS4xMTkuODQ6MTcwMDAvbWVzc2FnZS9tZXNzYWdldjIuaHRtbA==&#34;&gt;http://103.21.119.84:17000/message/messagev2.html&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;情况异常&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#情况异常&#34;&gt;#&lt;/a&gt; 情况异常&lt;/h1&gt;
+&lt;h2 id=&#34;第一种情况-可以复现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一种情况-可以复现&#34;&gt;#&lt;/a&gt; 第一种情况 (可以复现)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;采集指纹一 （食指）&lt;/li&gt;
+&lt;li&gt;采集指纹二  (中指)&lt;/li&gt;
+&lt;li&gt;删除指纹
+&lt;ul&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/U%E7%9B%BE/u%E7%9B%BE%E6%B5%8B%E8%AF%95%E6%83%85%E5%86%B5%E4%B8%80.png&#34; alt=&#34;u盾测试情况一&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;认证指纹 (食指)  -&amp;gt; 成功&lt;/li&gt;
+&lt;li&gt;认证指纹 (中指)  -&amp;gt; 成功&lt;/li&gt;
+&lt;li&gt;刷新页面后 再次点击删除
+&lt;ul&gt;
+&lt;li&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/U%E7%9B%BE/u%E7%9B%BE%E6%B5%8B%E8%AF%95%E4%B8%80%E5%88%B7%E6%96%B0%E5%90%8E.png&#34; alt=&#34;u盾测试一刷新后&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最后删除成功&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;总结： 在页面不刷新的情况下，删除一次和删除多次情况是一样的，都是可以匹配上的&lt;/li&gt;
+&lt;li&gt;原因：在页面刷新后，&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第二种情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二种情况&#34;&gt;#&lt;/a&gt; 第二种情况&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 属于无限录入指纹情况，目前该问题已解决&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;交互方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#交互方式&#34;&gt;#&lt;/a&gt; 交互方式&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;连接 U 盾
+&lt;ul&gt;
+&lt;li&gt;测试 u 盾连接情况&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;采集 SN
+&lt;ul&gt;
+&lt;li&gt;获取安全 U 盾编号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;采集身份证号
+&lt;ul&gt;
+&lt;li&gt;待开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;采集指纹
+&lt;ul&gt;
+&lt;li&gt;录入指纹一 和 指纹二 ，并存入 U 盾模组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;删除指纹
+&lt;ul&gt;
+&lt;li&gt;将之前存储在模组中的指纹信息给删除 （&lt;span class=&#34;red&#34;&gt;全部清空&lt;/span&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;安全认证 (比对)
+&lt;ol&gt;
+&lt;li&gt;下发 FP_UP 指令 （指录入当前指纹）&lt;/li&gt;
+&lt;li&gt;对比 （将当前指纹，与之前存入模组间的指纹匹配）&lt;/li&gt;
+&lt;li&gt;删除当前指纹信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;删除身份证号
+&lt;ul&gt;
+&lt;li&gt;待开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;获取指纹信息
+&lt;ul&gt;
+&lt;li&gt;当前指纹如果匹配失败，可以根据 index 获取当前指纹信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;如果只录入一条指纹情况，错误指纹 index 如下&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;verify finger info one index&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;116&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;如果录入两条指纹情况，错误指纹 index 如下&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;verify finger info more index&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="项目开发" />
+        <updated>2024-04-24T01:05:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://hk2012.github.io/2024/04/10/other/u%E7%9B%BE/</id>
         <title>U盾项目代码熟悉</title>
@@ -100,7 +184,7 @@ handle_EOF ()：处理文件结束符（在代码中未使用）。&lt;br /&gt;
 &lt;h2 id=&#34;交互方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#交互方式&#34;&gt;#&lt;/a&gt; 交互方式&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;连接u盾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#连接u盾&#34;&gt;#&lt;/a&gt; 连接 U 盾&lt;/h2&gt;
+&lt;p&gt;连接 U 盾&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;采集 SN&lt;/p&gt;
@@ -142,6 +226,19 @@ handle_EOF ()：处理文件结束符（在代码中未使用）。&lt;br /&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;录入两个指纹之后，每次下发一个指纹，匹配不成功之后，直接返回失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;/img/%E8%83%BD%E6%BA%90%E4%BA%92%E8%81%94%E7%BD%91/U%E7%9B%BE/U%E7%9B%BE%E9%97%AE%E9%A2%981.png&#34; alt=&#34;U盾问题1&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;操作步骤：
+&lt;ul&gt;
+&lt;li&gt;点击录入指纹 1，听到滴的一声，录入指纹后，在弹窗没有弹出返回结果，立即录入指纹 2，会出现以上情况&lt;/li&gt;
+&lt;li&gt;这现象是老孔自己操作的时候，发现的问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主要问题 1. &lt;span class=&#34;red&#34;&gt;对比成功率过低&lt;/span&gt; 。指纹比对成功率， 目前实时检测 ，只检测一次&lt;/p&gt;
 </content>
         <category term="熟悉项目" />
         <updated>2024-04-10T11:09:00.000Z</updated>
